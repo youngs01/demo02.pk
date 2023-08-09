@@ -15,8 +15,7 @@
 
 <body>
 
-
-  <nav class="navbar navbar-expand-lg ">
+  <nav class="navbar navbar-expand-lg">
     <div class="container">
       <img src="Screenshot 2023-08-06 222351.png" width="100px" alt="">
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -41,21 +40,22 @@
             <a class="nav-link " href="#" role="button">
               Blog
             </a>
-
           </li>
 
           <li class="nav-item dropdown">
             <a class="nav-link " href="#" role="button">
               Support
             </a>
-
           </li>
-
-
-          </li>
-
         </ul>
 
+        <ul class="navbar-nav">
+          <li class="nav-item d-flex justify-content-end">
+            <button class="btn btn-primary" style="display: flex;
+              padding: 12px 30px;
+              border-radius: 100px;" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Contact Us</button>
+          </li>
+        </ul>
       </div>
     </div>
   </nav>
@@ -66,9 +66,56 @@
   <br><br><br>
 
 
+  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5 text-dark" id="staticBackdropLabel">Fill this foam to contact</h1>
+
+        </div>
+        <div class="modal-body text">
+
+          <main class="form-signin w-100 m-auto text-dark">
+            <form>
+
+              <h1 class="h3 text-dark " style="text-align: start;"></h1>
+
+              <div class="form-floating">
+                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                <label for="floatingInput">Email address</label>
+              </div>
+              <div class="form-floating">
+                <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                <label for="floatingPassword">Password</label>
+              </div>
+
+              <div class="form-check text-start my-3">
+                <input class="form-check-input" type="checkbox" value="remember-me" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault">
+                  Remember me
+                </label>
+              </div>
+              <button class="btn btn-primary w-100 py-2" type="submit">Submit</button>
+
+            </form>
+          </main>
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+
+        </div>
+      </div>
+    </div>
+  </div>
 
 
-  <div class="container ">
+
+
+
+
+  <div class="container " style=" font-family: 'Nunito Sans', sans-serif;">
 
     <div class="row align-items-center ">
 
